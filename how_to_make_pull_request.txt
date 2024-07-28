@@ -1,0 +1,21 @@
+first find anybody's else repo to make a PR 
+fork it
+clone it into ur vscode or sth, go to terminal
+make a branch, modify it 
+push the branch to your own repo(forked wala)
+
+go to ur repo in github and compare and pull reuqest, add desc and confirm
+once done, the anybody will get a request from you to merge it
+
+
+Possible errors:
+if u r getting error pushing, 
+$$ cmdkey /delete:LegacyGeneric:target=git:https://github.com
+$$ git credential-cache exit
+use the above command to remove ur login credentials from your git 
+and then try to push again, now u will be prompted to login for your github creds and done
+
+ssh-keygen
+cat .... pub
+and copy paste to github setting ssh keys 
+and done
