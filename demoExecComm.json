@@ -1,0 +1,24 @@
+{
+  "asset_classes": [
+    {
+      "name": "ACE",
+      "summary": "Workloads are running in all AZs. Utilization is Low. Grid is healthy.",
+      "status": "Green"
+    },
+    {
+      "name": "CDT",
+      "summary": "Workloads are running in all AZs except TORAZ3. Utilization is Low. Grid is healthy.",
+      "status": "Amber"
+    },
+    {
+      "name": "EQT",
+      "summary": "Workloads are running in all AZs. Utilization is Low to Medium. Grid is healthy.",
+      "status": "Green"
+    },
+    {
+      "name": "Rates",
+      "summary": "Workloads are running in all AZs. Utilization is High to Low. Grid is healthy.",
+      "status": "Red"
+    }
+  ]
+}
